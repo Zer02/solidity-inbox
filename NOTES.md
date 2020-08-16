@@ -1,4 +1,4 @@
-# Notes from Udemy course ()
+# Notes from Udemy course
 
 ## Section 2 (8/15/20)
 
@@ -32,4 +32,18 @@ describe('Car', () => {
         assert.equal(car.drive(), 'vroom');
     });
 })
+```
+
+### 45. Refactor to Async/Await
+- Before refactoring beforeEach()
+
+```js
+beforeEach(() => {
+    // Get a list of all acounts
+    web3.eth.getAccounts() // this function returns a promise
+        .then(fetchedAccounts => {
+            console.log(fetchedAccounts);
+        });
+
+});
 ```
