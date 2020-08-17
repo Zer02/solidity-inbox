@@ -1,6 +1,11 @@
 # Notes from Udemy course
+## MetaMask seed backup phrase: 
+    move absent broken 
+    cupboard tide fabric 
+    few ecology wish 
+    town alert balcony
 
-## Section 2 (8/15/20)
+## Section 2 (8/15/20 - 8/16/20)
 
 ### 42. Testing with Mocha
 - Deleted simple mocha test example which was inside './test/Inbox.test.js'
